@@ -2,10 +2,11 @@
 //  BLEData.h
 //  BLEData
 //
-//  Created by Frankytw on 2020/12/4.
+//  Created by Yume on 2018/9/27.
+//  Copyright © 2018 Yume. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 //! Project version number for BLEData.
 FOUNDATION_EXPORT double BLEDataVersionNumber;
