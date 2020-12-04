@@ -4,13 +4,47 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/BLEData.h</key>
+		<data>
+		YjZOKdmCUJtU9IMaNh7aI5IcKu4=
+		</data>
+		<key>Headers/Data.h</key>
+		<data>
+		IwJis4N8kHeumHwonnRk9NYrjI0=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		kJRDp+rOfDbyxi8gtftwDtIruj0=
 		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		Ip3nlg5PVWULMJ2DnprWCqFx91I=
+		</data>
 	</dict>
 	<key>files2</key>
-	<dict/>
+	<dict>
+		<key>Headers/BLEData.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xaVyiBNYgezaGXKhe3Pw4UjDBJPnbcSJrusdIh+HFgE=
+			</data>
+		</dict>
+		<key>Headers/Data.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gqSe2zlzaRbnH784dey77JZitKCwzraavlrhH6BgYGg=
+			</data>
+		</dict>
+		<key>Modules/module.modulemap</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Hmd0LWd3siYBUw2rdGaGeq8dZv48TnAxTD7gpaoNBDM=
+			</data>
+		</dict>
+	</dict>
 	<key>rules</key>
 	<dict>
 		<key>^.*</key>
