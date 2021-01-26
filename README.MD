@@ -1,4 +1,4 @@
 ``` pod
 use_frameworks!
-pod 'NR5BLEReceiver', :git => 'https://github.com/frankyliu-maxwin/NR5BLEReceiver'
+pod 'NR5BLEReceiver', :git => 'https://bitbucket.org/maxwin-inc/NR5BLEReceiver'
 ```

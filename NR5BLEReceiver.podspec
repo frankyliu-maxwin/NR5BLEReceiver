@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
     s.name     = 'NR5BLEReceiver'
-    s.version  = '1.0.22'
+    s.version  = '1.0.23'
     s.license  = 'MIT'
     s.summary  = "..."
-    s.homepage = 'https://github.com/frankyliu-maxwin/NR5BLEReceiver'
+    s.homepage = 'https://bitbucket.org/maxwin-inc/NR5BLEReceiver'
     s.authors  = { 'yume190' => 'yume190@gmail.com' }
     s.social_media_url = "https://www.facebook.com/yume190"
     s.source   = { :git => 'https://github.com/frankyliu-maxwin/NR5BLEReceiver.git', :tag => s.version }
@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
 
     s.swift_version = '5.0'
 
-    s.dependency 'LayoutAnchor', '~> 4.2.0'
-    s.dependency 'CStructDecodable', '~> 4.0.1'
-    s.dependency 'YumeAlamofire/Rx', '5.0.5'
+    s.dependency 'LayoutAnchor', :git => 'https://bitbucket.org/maxwin-inc/layoutanchor', :tag => '4.2.0' #4.2.0
+    s.dependency 'CStructDecodable', :git => 'https://bitbucket.org/maxwin-inc/cstructdecodable', :tag =>'4.0.1' #4.0.1
+    s.dependency 'YumeAlamofire/Rx', :git => 'https://bitbucket.org/maxwin-inc/rxalamofire', :tag => '5.0.5'
 
     s.dependency 'BigInt', '~> 4.0.0' #4.0.0
     s.dependency 'CryptoSwift', '~> 1.0.0' # 1.0.0
