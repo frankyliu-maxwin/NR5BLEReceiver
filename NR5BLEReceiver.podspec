@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
 
     s.swift_version = '5.0'
 
-    s.dependency 'LayoutAnchor', :git => 'https://bitbucket.org/maxwin-inc/layoutanchor', :tag => '4.2.0' #4.2.0
-    s.dependency 'CStructDecodable', :git => 'https://bitbucket.org/maxwin-inc/cstructdecodable', :tag =>'4.0.1' #4.0.1
-    s.dependency 'YumeAlamofire/Rx', :git => 'https://bitbucket.org/maxwin-inc/rxalamofire', :tag => '5.0.5'
+    s.dependency 'LayoutAnchor', '~> 4.2.0'
+    s.dependency 'CStructDecodable', '~> 4.0.1'
+    s.dependency 'YumeAlamofire/Rx', '5.0.5'
 
     s.dependency 'BigInt', '~> 4.0.0' #4.0.0
     s.dependency 'CryptoSwift', '~> 1.0.0' # 1.0.0
