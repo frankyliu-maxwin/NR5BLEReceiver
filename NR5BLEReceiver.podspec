@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
     s.name     = 'NR5BLEReceiver'
-    s.version  = '1.0.23'
+    s.version  = '1.0.22'
     s.license  = 'MIT'
     s.summary  = "..."
-    s.homepage = 'https://bitbucket.org/maxwin-inc/NR5BLEReceiverDATA1968'
+    s.homepage = 'https://github.com/frankyliu-maxwin/NR5BLEReceiver'
     s.authors  = { 'yume190' => 'yume190@gmail.com' }
     s.social_media_url = "https://www.facebook.com/yume190"
-    s.source   = { :git => 'https://bitbucket.org/maxwin-inc/NR5BLEReceiverDATA1968', :tag => s.version }
+    s.source   = { :git => 'https://github.com/frankyliu-maxwin/NR5BLEReceiver.git', :tag => s.version }
 
     s.ios.deployment_target = '9.0'
     s.ios.vendored_frameworks = 'NR5BLEReceiver.framework', 'BLEData.framework'
